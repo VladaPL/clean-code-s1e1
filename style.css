@@ -6,23 +6,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.matrix-example {
+.header-section {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.matrix-example img {
+.header-section img {
   width: 100%;
 }
 
-.matrix-example .more_inf {
+.header-section .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .matrix-example {
+  .header-section {
     text-align: center;
   }
 }
