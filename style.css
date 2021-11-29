@@ -6,28 +6,28 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.header-section {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header-section img {
+.header__image {
   width: 100%;
 }
 
-.header-section .more_inf {
+.header__link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-  .header-section {
+  .header {
     text-align: center;
   }
 }
 
-.main-section {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,17 +39,18 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.section-add__wrapper {
   display: flex;
 }
 
-ul {
+.list {
   margin: 0;
   padding: 0px;
 }
 
-li,
-h3 {
+.item,
+.section-todo__title,
+.section-completed__title {
   list-style: none;
 }
 
@@ -74,8 +75,8 @@ button:hover {
 
 /* Heading */
 
-h3,
-label[for="new-task"] {
+.title,
+.section-add__title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
